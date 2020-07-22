@@ -18,7 +18,7 @@ public class ProjectCar {
         
         String[] heBrand = {"BMW","AUDI","ALFAROMEO,VOLVO"};
         String brand = "";
-        brand = JOptionPane.showInputDialog("Ingrese la maraca del auto que desea cotizar").toUpperCase();        
+        brand = JOptionPane.showInputDialog("Ingrese la marca del auto que desea cotizar").toUpperCase();        
         
         int year;
         year = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el año del auto que deseaa cotizar"));
